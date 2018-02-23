@@ -1,0 +1,143 @@
+
+
+header {
+    height: 50px;
+    background-color: grey;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-size: 30px;
+  }
+
+.arrow {
+    background-color: tomato;
+    opacity: 1 !important;
+    margin: auto;
+    height: 100px;
+    width: 80px;
+
+
+}
+main {
+    background-color: white;
+}
+
+.claim {
+    height: 500px;
+    background-color: steelblue;
+}
+
+.perk {
+    height: auto;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.picto {
+    color: white;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    
+}
+
+.perk h4{
+    padding: 10px;
+}
+
+#projects {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#subprojects {
+    margin-bottom: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.description {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+  
+}
+
+.blog {
+    text-align: left !important;
+}
+
+.date {
+    font-size: 12px;
+    color: grey;
+}
+.articles {
+    height: auto;
+    background-color: white;
+}
+
+.articles img {
+    margin: auto;
+}
+
+.details {
+    color: grey;
+    font-size: 12px;
+}
+
+footer {
+    border-top-color: tomato;
+    border-top-style: solid;
+    height: auto;
+    background-color: #3b3b3b;
+    color: #FFFFFF;
+}
+
+.bottom {
+    color: white;
+    font-size: 12px;
+    padding: 2%
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left:0;
+
+}
+
+li + hr {
+    border:1px;
+    border-top:1px dotted #FFFFFF;
+    color:#fff;
+    background-color: none;
+    height:1px;
+    width:100%;
+    padding-top: -5px;
+  }
+
+.last {
+    background-color: black;
+    color: #cac9c8;
+    font-size: 10px;
+    height: 100% !important;
+    padding: 1%
+}
